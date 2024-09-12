@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "name": "CodeceptJS Run Grep",
+      "program": "${workspaceFolder}/lib/main.js",
+      "args": ["run", "--grep", "${input:grepPattern}"],
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "pwa-node",
+      "envFile": "${workspaceFolder}/.env",
+      "env": { "GAF_LOG_LEVEL": "DEBUG" }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "grepPattern",
+      "type": "promptString",
+      "description": "Enter the grep pattern for the test tags to be executed"
+    }
+  ]
+}

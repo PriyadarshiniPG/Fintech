@@ -1,0 +1,18 @@
+{
+  "orgpage": {
+    "Initiate Transaction": "//div[@class='bc_accordion_itemmenu']//a[contains(text(),'Initiate Transaction')]",
+    "Modify Status": "[name^='accountList'][name$='.modifyStatus']",
+    "Identity Status Edit": "(.//i[contains(@class, 'el-icon-edit')])[1]",
+    "Identity Status Edit1": ".//i[contains(@class,'el-icon-black-edit')]",
+    "Identity_Status": "//div[@class='bc_panel bc']//div[@id='identityStatus']//label[contains(@class,'bc_label')]",
+    "Organization_Children_View": "[id$='queryDirectChildOrg_0_1']",
+    "default operator Edit": "//button[@id='defaultOperator']",
+    "edit language": "(//*[@class='el-icon-edit'])[2]",
+    "editStatusInTill": "//button[@id='status']",
+    "editStatusInOrg": "//div//*[text()='Identity Status']//parent::div//i",
+    "edit Msisdn": "//span[text()=' Edit ']",
+    "LanguageeditinOrg": "(//*[@class='el-link el-link--default']/i)[3]",
+    "Product": "//label[@for='productIdList']",
+    "SelectArrow": "//button[@class='el-button el-button--primary el-transfer__button']"
+  }
+}

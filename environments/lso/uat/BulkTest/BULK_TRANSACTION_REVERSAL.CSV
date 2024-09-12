@@ -1,0 +1,3 @@
+ReceiptNum(required),Amount(optional)
+(warning) You are advised to use the TXT editor to open the CSV file. If you use the Excel editor to open the CSV file convert the format.,
+KE5710IG00,

@@ -1,0 +1,267 @@
+{
+  "GPTC": {
+    "Table": {
+      "CustomerInUserService": "el-table__fixed-right",
+      "Till": "table-region",
+      "ProjectManagement": "table-region",
+      "KYC": "el-table__fixed-right",
+      "OrganizationOperator": "el-table__fixed-right",
+      "CustomerInIdentity": "el-table__fixed-right",
+      "CustomerAuditLog": "el-table__fixed-right",
+      "OrganizationOperatorColumns": "table-region",
+      "SPOperator": "el-table__fixed-right",
+      "Organization": "table-region",
+      "BankAccountList": "el-table__fixed-right",
+      "IdentityAuditlog": "el-table__body",
+      "RemovedAccount": "table-region",
+      "BankAccountCreated": "table-region",
+      "SearchOrg": "table-region",
+      "CustomercareIdentity": "table-region",
+      "accountType": "accountTypeList",
+      "dataList": "dataList",
+      "task_data": "task_data",
+      "OrgTill": "el-table__fixed-right",
+      "OrgAuditLog": "table-region",
+      "ProductAdd": "table-region",
+      "Commission": "el-table__fixed-right",
+      "Gridclient": "bc_grid bc draggable",
+      "TaskAuditlog": "el-table__fixed-right",
+      "ReviewTransaction": "el-table__fixed-right",
+      "ReviewTransaction1": "table-region",
+      "MakerChecker": "table-region",
+      "ApproveReconciliation": "el-table__fixed-right",
+      "Bulk": "el-table__fixed-right",
+      "EntryLocked": "el-table__fixed-right"
+    },
+
+    "Label": {
+      "Till Number": "Till Number",
+      "MSISDN": "MSISDN",
+      "Organization Short Code": "Organization Short Code",
+      "Notification Receiving MSISDN": "Notification Receiving MSISDN",
+      "Default Operator ID": "Default Operator ID",
+      "Project Name": "Project Name",
+      "KYC Name": "KYC Name",
+      "Alias": "Alias",
+      "KYC Code": "KYC Code",
+      "Display Name": "Display Name",
+      "Operator ID": "Operator Id",
+      "SMS": "SMS",
+      "Role Name": "Role Name",
+      "Username": "User Name",
+      "Language": "Language",
+      "Rolename": "Role Name",
+      "Email": "Email",
+      "User Name": "User Name",
+      "Parent Short Code": "Parent Short Code",
+      "Short Code": "Short Code",
+      "Organization Name": "Organization Name",
+      "Notification Receiving E-MAIL": "Notification Receiving E-MAIL",
+      "KYC Field Name": "KYC Field Name",
+      "parentshortcode": "Parent Short Code",
+      "Organizationname": "Organization Name",
+      "First Name": "First Name",
+      "LastName": "Last Name",
+      "Date of Birth": "Date of Birth",
+      "Secret Word": "Secret Word",
+      "Balance of Default Account": "Balance of Default Account",
+      "shortcode": "Short Code",
+      "Notificationreceivingemail": "Notification Receiving E-mail",
+      "Web": "Web",
+      "API": "API",
+      "Product Name": "Product Name",
+      "ChildOrganization Name": "Organization Name",
+      "Handset": "Handset",
+      "test_role01": "test_role01",
+      "CashIn2": "CashIn2",
+      "OrgOperRole": "OrgOperRole",
+      "CityorTown": "City or Town",
+      "SecretAnswer": "chennai",
+      "AccountName": "Account Name",
+      "AccountNumber": "Account Number",
+      "ReceiptNo": "Receipt No",
+      "Middle Name": "Middle Name",
+      "PostCode": "Post Code",
+      "PostalAddress": "Postal Address",
+      "PhysicalAddress": "Physical Address",
+      "Amount": "Amount(M)",
+      "Remark": "Remark",
+      "Amount($)": "Amount($)",
+      "Customer": "Customer",
+      "IdentityID": "Identity ID",
+      "Operator ID Org": "Operator ID",
+      "Account Type Name": "Account Type Name",
+      "Account Type Alias": "Account Type Alias",
+      "Display Nameone": "Display Name",
+      "Description": "Description",
+      "AllowOverdraft": "Allow Overdraft",
+      "AccountTypeNameone": "Account Type Name",
+      "ProductName": "Product Name",
+      "Descriptionone": "Description",
+      "DisplayName": "Display Name",
+      "DisplayDescription": "Display Description",
+      "AdvanceNotification(Days)": "Advance Notification (Days)",
+      "ServiceName": "Service Name",
+      "ServiceAlias": "Service Alias",
+      "FirstName": "First Name",
+      "LastNameInorgpage": "Last Name",
+      "CityorTownInorgpage": "City or Town",
+      "TillNumber+Organization": "Till Number + Organization Short Code",
+      "OfficePhoneNumber": "Office Phone Number",
+      "ContactPhysicalAddress": "Contact Physical Address",
+      "ContactAddress2": "Contact Address 2",
+      "ContactPostCode": "Contact Post Code",
+      "ContactCityorTown": "Contact City or Town",
+      "Contact First Name": "Contact First Name",
+      "Note": "Note",
+      "templateName": "templateName",
+      "TemplateName": "Template Name",
+      "FileTemplateName": "File Template Name",
+      "Min.Times": "Min. Times",
+      "Max.Times": "Max. Times",
+      "TransReceipt": " Receipt No.  ",
+      "NotificationReceivingE-mail": "Notification Receiving E-mail",
+      "Tamplate Name": "Tamplate Name",
+      "PassWord": "Password",
+      "CurrentPIN": "Current PIN",
+      "NewPIN": "New PIN",
+      "ConfirmPIN": "Confirm PIN",
+      "Plan Name": "Plan Name",
+      "ScheduleTime": "Schedule Time",
+      "CertificateNumber": "Certificate Number",
+      "BasicInfoText": "Basic Info",
+      "Nationalid": "National ID",
+      "Yes": "Yes"
+    },
+    "TransactionServices": {
+      "BusinessDeposit": "Organization Funds Management - Business Deposit",
+      "BusinessWithdraw": "Organization Funds Management - Business Withdrawal",
+      "BusinessTransfersfromUtilityCollectionAccount": "Business Transfers from Utility Collection Account",
+      "BusinessTransfers-UtilityDisbursementto/fromM-PESA Working Account": "Business Transfers - Utility Disbursement to/from M-PESA Working Account",
+      "AgencyOrganizationMoveFundsFloatToM-Pesa": "AgencyOrganizationMoveFundsFloatToM-Pesa",
+      "MerchantToMerchant": "Merchant Pay To Merchant",
+      "OrganizationFundsManagementMoveFunds": "Organization Funds Management - Move Funds",
+      "AgencyTransferfromFloatAccountToWorkingAccount": "Agency Transfer from Float Account to Working Account",
+      "SalaryPaymentToCustomer": "Salary Payment To Customer",
+      "BusinessPaymentToCustomer": "Business Payment To Customer",
+      "MerchantWithdrawalofFundsfromagent": "Merchant Withdrawal of Funds from agent",
+      "BusinessToBusinessTransfer": "Business To Business Transfer",
+      "TransferofFundsFromOrganizationToM-PESA": "Transfer of Funds From Organization To M-PESA",
+      "OrganizationWithdrawalFromM-PESA": "Organization Withdrawal From M-PESA",
+      "Organization Funds Management - Business Deposit": "Organization Funds Management - Business Deposit",
+      "Organization Funds Management - Business Withdrawal": "Organization Funds Management - Business Withdrawal",
+      "OrganizationFundsManagement-FloatToMPesa": "Organization Funds Management - Float to M-Pesa"
+    },
+    "ReasonType": {
+      "M-PESA Account to Utility Collection Account": "Business Transfer from M-PESA Account to Utility Collection Account",
+      "Utility Collection to M-PESA Account": "Business Transfer from Utility Collection to M-PESA Account"
+    },
+    "Message": {
+      "TransactionApproval": "The transaction has been processed, and need be approved by another operator.",
+      "TransactionSuccess": "Transaction approved successfully.",
+      "TransactionReversal": "Transaction reversed successfully.",
+      "Verification failed": "Verify Failed!",
+      "VerifySuccess": "Verify Success!",
+      "SubmitSuccess": "Submit Note Success!",
+      "Status Change": "Status edited successfully",
+      "TransactionProcessed": "The transaction has been processed.",
+      "Submittedsuccessfully": "Submitted successfully.",
+      "UnlockSuccess": "Unlock PIN SUCCESS!",
+      "closeCall": "Close Call SUCCESS!",
+      "ResetPinSuccess": "Reset PIN SUCCESS",
+      "EntriesLocked": "Entries locked successfully."
+    },
+
+    "Status": {
+      "Active": "Active",
+      "Pending Active": "Pending Active",
+      "Closed": "Closed",
+      "Suspended": "Suspended",
+      "Frozen": "Frozen"
+    },
+
+    "ExplicitWait": {
+      "Seconds": "60"
+    },
+
+    "Amount": {
+      "Minimum": "5",
+      "Minimum1": "10",
+      "Normal": "100",
+      "Maximum": "1000",
+      "Limit1000": "1001",
+      "Limit10000": "10000",
+      "Limit100000": "100000",
+      "DepositNormal": "10000"
+    },
+
+    "TableList": {
+      "ProjManTable": {
+        "StatusColNum": "6",
+        "OperationDetailColNum": "7",
+        "OperationLockColNum": "8",
+        "ReceiptNo": "1"
+      },
+      "OrgOperatorTable": {
+        "StatusColNum": "7"
+      },
+      "KycTable": {
+        "OperationDetailColNum": "5",
+        "OperationEditColNum": "6",
+        "OperationReviewColNum": "7"
+      }
+    },
+
+    "Configuration": {
+      "Customer": "2",
+      "KYC Configuration": "2",
+      "Project Management": "1"
+    },
+
+    "AddProduct": {
+      "AllProduct": "1",
+      "BuyAirtime": "2",
+      "P2PTransfer": "3",
+      "CollectionBankTill": "5",
+      "C2BBusiness-UtlityPaymentTill": "4"
+    },
+
+    "Product": {
+      "C2B Business - Utlity Payment": "C2B Business - Utlity Payment"
+    },
+
+    "Language": {
+      "Southern Sotho": "Southern Sotho",
+      "Eng Singapore": "English (Singapore)",
+      "English": "English",
+      "Chinese": "Chinese (China)"
+    },
+
+    "AccessChannel": {
+      "Web": " Web ",
+      "API": " API "
+    },
+    "Gender": {
+      "Male": " Male ",
+      "Female": " Female "
+    },
+
+    "OrgOpRole": {
+      "All": "1",
+      "Test001": "19",
+      "TestRole02": "2"
+    },
+    "Button": {
+      "Pass": "pass",
+      "Fail": "fail"
+    },
+
+    "SpRole": {
+      "SPOperatorRole": "2"
+    },
+    "FolderLocation": {
+      "Gptc": "./environments/lso/uat/gptc/",
+      "Regression": "./environments/lso/uat/regression/"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "homepage": {
+    "Profile": "//span[contains(@class,'el-dropdown-link')]",
+    "ProfileOrg": "(//span[contains(@class,'avatar')])[1]",
+    "ProfileConfig": "//li[contains(@class,'fun_logout')]",
+    "Logout": "(//li[contains(@class,'el-dropdown-menu__item')]//button//span)[3]",
+    "LogoutOrg": "//li[contains(@class,'el-dropdown-menu__item') and text()='Log Out']",
+    "Logout_Yes": "//div[@class='el-message-box']//span[contains(text(),'Yes')]",
+    "Logout_Config_Yes": "//div//div[contains(text(),'Yes')]",
+    "Close_TAB": "((//span[contains(text(),'Home')])[2]/../../div)[2]/span[@class='close-icon']",
+    "LogoutConfirm": "//span[text()='Log Out']//parent::div//following-sibling::div[@class='el-dialog__footer']//child::span[text()='Confirm']",
+    "OrgMypreference": "(//li[contains(@class,'el-dropdown-menu__item')])[1]"
+  }
+}

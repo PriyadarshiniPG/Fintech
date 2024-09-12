@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BulkPaymentRequest>
+  <!--Pay Dividend 1-->
+  <Customer>
+    <Identifier IdentifierType="MSISDN" IdentifierValue="26656791742"></Identifier>
+    <Amount Value="15"></Amount>
+    <Comment Value="payment"></Comment>
+  </Customer>
+  <!--Pay Dividend 2-->
+  <Customer>
+    <Identifier IdentifierType="MSISDN" IdentifierValue="26657551933"></Identifier>
+    <Amount Value="15"></Amount>
+    <Comment Value="payment"></Comment>
+  </Customer>
+</BulkPaymentRequest>

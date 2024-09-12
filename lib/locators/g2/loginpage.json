@@ -1,0 +1,10 @@
+{
+  "Login": {
+    "AccountName": "[id = 'userAccount']", 
+    "Password": "[id ='password']",
+    "ShortCode": "[id = 'shortCode']",
+    "VerifyCode": "[id = 'verifyCode']",
+    "LoginBtn": "[id = 'loginBtn']",
+    "Agreement": "//button[@class='el-button el-button--primary el-button--small']"
+  } 
+}

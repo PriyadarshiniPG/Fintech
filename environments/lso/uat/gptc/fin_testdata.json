@@ -1,0 +1,175 @@
+{
+  "GPTC": {
+    "Login": {
+      "SP-Url": "https://159.138.163.66:1080/#/login",
+      "Org-Url": "https://159.138.163.66:1081/",
+      "VerificationCode": "1111",
+      "sp": {
+        "UserID": "AutomationFin1",
+        "password": "AUTO!1212"
+      },
+      "sp_generic": {
+        "UserID": "AutomationFin2",
+        "password": "AUTO!1212"
+      },
+      "spBackoff": {
+        "UserID": "fintechBO",
+        "password": "AUTO!1212"
+      },
+      "spcc-bo": {
+        "UserID": "finAuto",
+        "password": "AUTO!1212"
+      },
+      "spcc": {
+        "UserID": "SpFinCCA",
+        "password": "AUTO!1212"
+      },
+      "org": {
+        "UserID": "orgope1",
+        "password": "AUTO!1616",
+        "Shortcode": "010000",
+        "PIN": "6767"
+      },
+      "orgB2C": {
+        "UserID": "Testbtoc",
+        "password": "Abc12345##",
+        "Shortcode": "010204"
+      },
+      "orgC2B": {
+        "UserID": "MyOperator1234",
+        "password": "AUTO!1212",
+        "Shortcode": "010172",
+        "PIN": "8998"
+      },
+      "orgAHO": {
+        "UserID": "AHOCen",
+        "password": "AUTO!1212",
+        "Shortcode": "010260"
+      }
+    },
+    "Customer": {
+      "Registered_Customer1": "26657551933",
+      "Registered_Customer2": "26658992714",
+      "Registered_Customer3": "26658575147",
+      "ClosedCustomer": "26650979746"
+    },
+    "OrgOperator": {
+      "ShortCode": "010000",
+      "Till": "10012",
+      "DefaultOperatorId": "ABC1",
+      "DefaultOperatorId3": "ABC3"
+    },
+    "Till": {
+      "MpatOrgOne": {
+        "TillNumber": "10012",
+        "MSISDN": "26658463953"
+      }
+    },
+    "ShortCode": {
+      "ShortCode1": "010000",
+      "ShortCode2": "010172",
+      "ShortCode3": "010003",
+      "ShortCode4": "010089"
+    },
+    "DropDown": {
+      "String": "String",
+      "Input": "Input",
+      "English": "English",
+      "Email": "Email",
+      "Owned": "Owned",
+      "CanMakeOwned": "Can Make Owned",
+      "Aggregator Model": "2",
+      "Central Owned Model": "2",
+      "Sub Agent Expansion Model": "NoneHierarchy",
+      "Customer": "Customer",
+      "MSISDN": "MSISDN",
+      "Organization Wallet Working Account": "Organization Wallet Working Account",
+      "ResetPIN": "Reset PIN",
+      "ModifySystemParameter": "Modify System Parameter",
+      "LoginSuccess": "Login Success",
+      "DefaultOperator": "ABC123",
+      "SecretQuestion": "What is your place of birth",
+      "DeleteBeneficiary": "Delete Beneficiary",
+      "AddBeneficiary": "Add Beneficiary",
+      "CentralBankofLesotho": "CENTRAL BANK OF LESOTHO",
+      "StandardLesothoBank": "Standard Lesotho Bank",
+      "FintechTest": "FintechTest",
+      "DepositAccount": "Deposit Account",
+      "LSL": "LSL",
+      "Credit Card": "Credit Card",
+      "American": "American,U.S",
+      "BusinessDeposit": "Organization Funds Management - Business Deposit",
+      "BusinessWithdraw": "Organization Funds Management - Business Withdrawal",
+      "BusinessTransfersfromUtilityCollectionAccount": "Business Transfers from Utility Collection Account",
+      "BusinessTransfers-UtilityDisbursementto/fromM-PESA Working Account": "Business Transfers - Utility Disbursement to/from M-PESA Working Account",
+      "AgencyOrganizationMoveFundsFloatToM-Pesa": "AgencyOrganizationMoveFundsFloatToM-Pesa",
+      "MerchantToMerchant": "Merchant Pay To Merchant",
+      "DefaultOperatorID": "ABC123",
+      "LogoutSuccess": "Logout Success",
+      "LoginFailure": "Login Failure",
+      "Bank": "TEST",
+      "DateOfBirth": "Date of Birth",
+      "FirstNameLastName": "First Name + Last Name",
+      "IdentityId": "Identity Id",
+      "IdentityID": "Identity ID",
+      "RegisteredCustomer": "Registered Customer",
+      "MiddleName": "Middle Name",
+      "Whatisyourfirstcellphone": "What is your first cellphone",
+      "TillqueryCondition": "Till Number + Organization Short Code",
+      "EventClosetill": "Close Till",
+      "Identity Management": "Identity Management",
+      "Veterinaryservices": "0742 -Veterinary services",
+      "PublicListedCompany": "Public Listed Company",
+      "Aggregator": "Aggregator",
+      "Test": "test",
+      "NormalTransactions": "Normal Transactions",
+      "CSV": "CSV",
+      "CNY": "CNY",
+      "Albanian": "Albanian",
+      "Till": "Till",
+      "RegularExpression": "Regular Expression",
+      "Change Till Product": "Change Till Product",
+      "Change Till Status": "Change Till Status",
+      "ShortCode": "Short Code",
+      "OrganizationFundsManagementMoveFunds": "Organization Funds Management - Move Funds",
+      "AgencyTransferfromFloatAccountToWorkingAccount": "Agency Transfer from Float Account to Working Account",
+      "SalaryPaymentToCustomer": "Salary Payment To Customer",
+      "Testmodel": "testmodel",
+      "Southern Sotho": "Southern Sotho",
+      "OrganizationWithdrawalFromM-PESA": "Organization Withdrawal From M-PESA",
+      "MerchantWithdrawalofFundsfromagent": "Merchant Withdrawal of Funds from agent",
+      "Testbank": "Test2591/453462****7498/(AAAAbank)",
+      "Registeredcustomer": "Registered Customer",
+      "Minorcustomers": "Minor Customers",
+      "CustomerCare": "Customer Care"
+    },
+    "Bank": {
+      "HeadOffice": "Standard Lesotho Bank",
+      "Name": "Standard Lesotho Bank",
+      "TopOrgBank": "BBBank",
+      "AssetType": "Deposit Account",
+      "Currency": "USD",
+      "BankBranch": "mbank001"
+    },
+    "Region": {
+      "Butha-Buthe": "Butha-Buthe"
+    },
+    "Type Of Business": {
+      "Non-Governmental Organisation": "Non-Governmental Organisation"
+    },
+    "Organisation Category Code": {
+      "0742 -Veterinary services": "0742 -Veterinary services"
+    },
+    "Preferred Notification Language": {
+      "Language": "English"
+    },
+    "Reason Description": "Test",
+    "Role": "SPOperator.Role.1",
+    "Test Email": "TestAutomation@prodapt.com",
+    "DateOfBirth": "17/10/1989",
+    "CommissionPeriod": "20/02/2023",
+    "ScheduleTime": "18/04/2025",
+    "Firstname": "%%",
+    "Placeofbirth": "Chennai"
+  }
+}

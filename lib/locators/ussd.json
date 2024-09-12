@@ -1,0 +1,21 @@
+{
+  "ussd": {
+    "dialer_button": "#com.android.dialer:id/floating_action_button",
+    "dialer_input": "#com.android.dialer:id/digits",
+    "dialer_call": "#com.android.dialer:id/dialpad_floating_action_button",
+    "menu_input": "#com.android.phone:id/input_field",
+    "menu_message": "#android:id/message",
+    "menu_button": "//android.widget.TextView[@content-desc='Phone']",
+    "message_search": "#com.android.mms:id/search",
+    "search_text": "#android:id/search_src_text",
+    "message_title": "#com.android.mms:id/title",
+    "message_text": "#com.android.mms:id/text_view",
+    "message_received_time": "#com.android.mms:id/date_view",
+    "push_notification": "#android:id/message",
+    "enter_pin": "#com.android.phone:id/input_field",
+    "send_button": "#android:id/button1",
+    "ok_button": "#android:id/button1",
+    "cancel_button": "#android:id/button2",
+    "till_menu_message": "#com.android.phone:id/msgtext"
+  }
+}

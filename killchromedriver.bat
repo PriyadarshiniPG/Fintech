@@ -1,0 +1,2 @@
+tasklist | find /i "latest-x64-chromedriver" && taskkill /im latest-x64-chromedriver /F || echo Process "latest-x64-chromedriver" not running before test
+tasklist | find /i "chrome.exe" && taskkill /im chrome.exe /F || echo Process "chrome.exe" not running before test

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BulkRecycleMSISDNRequest>
+	<!-- At least one MSISDN item should exist -->
+	<!-- Number attribute is required -->
+	<!-- Reason attribute is optional -->
+	<MSISDN Number="26650045000" Reason="FOR AUTOMATION TESTING PURPOSE"/>
+	<MSISDN Number="26650046000" Reason="FOR AUTOMATION TESTING PURPOSE"/>
+	<MSISDN Number="26650047000" Reason="FOR AUTOMATION TESTING PURPOSE"/>
+</BulkRecycleMSISDNRequest>

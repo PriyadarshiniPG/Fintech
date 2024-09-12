@@ -1,0 +1,19 @@
+{
+  "customerpage": {
+    "Modify_Status": "//div//*[text()='Identity Status']//parent::div//div//i[contains(@class, 'el-icon-edit')]",
+    "Trust_Level": "//div[contains(@id,'customer')]//label[contains(@title,'Tier')]",
+    "Trust_Level_in_KYC_Info": "//div[contains(@id,'kycInfo')]//select[contains(@name,'trustLevel')]",
+    "IDType": "(//div[contains(@id,'kycInfo')]//td[contains(@class,'identifiedDocListBody')]//select[contains(@name,'0')])[1]",
+    "ID_Number": "(//div[contains(@id,'kycInfo')]//td[contains(@class,'identifiedDocListBody')]//input[contains(@class,'text')])[1]",
+    "Document_Received": "(//div[contains(@id,'kycInfo')]//td[contains(@class,'identifiedDocListBody')]//select[contains(@name,'0')])[2]",
+    "ID_Details": "//div[@id='identifiedDocListBody']",
+    "Tier_2_Document": "//div[@id='commonGroup']",
+    "DeviceEdit": "//td[contains(@id,'device')]//div[@title='Edit']",
+    "DeviceAndSecurityTable": "//div[@id='securityInfo']",
+    "Review_Transaction_Search": "(//div[@id='buttonGroup_1']//div[contains(text(),'Search')])[2]",
+    "Review_Transaction_Export": "(.//cite[contains(., 'Export')])[2]",
+    "VerifyInRecycle": "//a[@class = 'view_range el-link el-link--primary']//span[text() = 'Verify']",
+    "MsisdnExist": "//div[text()=' This MSISDN is already recycled or not assigned to any customer or till. ']",
+    "SubmitMSISDN":"(//span[text()=' Submit '])"
+  }
+}

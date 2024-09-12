@@ -1,0 +1,223 @@
+{
+  "name": "@slr-dynamics/gaf-core",
+  "version": "0.1.0",
+  "description": "Global Automation Framework",
+  "author": {
+    "name": "SLR Dynamics",
+    "email": "hello@slrdynamics.co.uk",
+    "url": "https://slrdynamics.co.uk/"
+  },
+  "bin": {
+    "gaf": "lib/main.js"
+  },
+  "main": "lib/main.js",
+  "scripts": {
+    "codeceptjs": "codeceptjs",
+    "check-conflict": "npx eslint-config-prettier codecept.conf.js",
+    "check-eslint": "npx eslint .",
+    "check-gherkin": "npx gherkin-lint",
+    "check-prettier": "npx prettier --check .",
+    "postinstall": "shx cp ./lib/helpers/actor.js ./node_modules/codeceptjs/lib/actor.js"
+  },
+  "scriptsComments": {
+    "codeceptjs": "Run CodeceptJS via NPM from the main CLI entry point",
+    "check-conflict": "Check if ESLint config contains any rules that are unnecessary or conflict with Prettier",
+    "check-eslint": "Run ESLint to identify and report problematic patterns found in JavaScript code",
+    "check-gherkin": "Run Gherkin linter to verify all feature files conform to the BDD rules",
+    "check-prettier": "Check if your files are formatted properly with Prettier",
+    "postinstall": "Copies the custom Actor class with the switchHelper method to codeceptjs after npm install"
+  },
+  "dependencies": {
+    "@wdio/cli": "6.12.1",
+    "@wdio/selenium-standalone-service": "6.12.1",
+    "allure-commandline": "2.13.8",
+    "appium": "1.20.2",
+    "appium-chromedriver": "4.27.0",
+    "appium-controller": "1.1.6",
+    "chai": "4.3.3",
+    "codeceptjs": "3.0.5",
+    "codeceptjs-chai": "2.2.0",
+    "convict": "6.0.0",
+    "convict-format-with-validator": "6.0.0",
+    "dotenv": "8.2.0",
+    "fs-extra": "9.1.0",
+    "imap": "0.8.19",
+    "java": "0.12.1",
+    "json-merger": "1.1.5",
+    "lodash": "4.17.21",
+    "log4js": "6.3.0",
+    "moment": "2.29.1",
+    "nested-property": "4.0.0",
+    "randomstring": "1.1.5",
+    "robotjs": "0.6.0",
+    "uuid": "8.3.2",
+    "webdriverio": "6.12.1",
+    "xlsx": "0.16.9"
+  },
+  "dependenciesComments": {
+    "@wdio/cli": {
+      "reason": "Used for running WebdriverIO in CLI mode",
+      "url": "https://www.npmjs.com/package/@wdio/cli"
+    },
+    "appium-controller": {
+      "reason": "Used for starting and stopping Appium server to control mobile devices",
+      "url": "https://www.npmjs.com/package/appium-controller"
+    },
+    "@wdio/selenium-standalone-service": {
+      "reason": "Used for running standalone Selenium service in WebdriverIO",
+      "url": "https://www.npmjs.com/package/@wdio/selenium-standalone-service"
+    },
+    "appium": {
+      "reason": "Used for running mobile test cases",
+      "url": "https://www.npmjs.com/package/appium"
+    },
+    "appium-chromedriver": {
+      "reason": "Used for running Chrome browser inside Appium virtual device",
+      "url": "https://www.npmjs.com/package/appium-chromedriver"
+    },
+    "allure-commandline": {
+      "reason": "Test reports can be generated from CLI with Allure",
+      "url": "https://www.npmjs.com/package/allure-commandline"
+    },
+    "chai": {
+      "reason": "Used for assertions to verify test results",
+      "url": "https://www.npmjs.com/package/chai"
+    },
+    "codeceptjs": {
+      "files": [
+        "lib/helpers/actor.js",
+        "codecept.conf.js",
+        "jsconfig.json",
+        "steps_file.js",
+        "steps.d.ts"
+      ],
+      "reason": "CodeceptJS is the testing framework for E2E testing",
+      "url": "https://www.npmjs.com/package/codeceptjs"
+    },
+    "codeceptjs-chai": {
+      "reason": "Used to include assertions as step outputs in Allure reports via 'I' object calls",
+      "url": "https://www.npmjs.com/package/codeceptjs-chai"
+    },
+    "convict": {
+      "reason": "Defines the framework configuration schema and validates it",
+      "url": "https://www.npmjs.com/package/convict"
+    },
+    "convict-format-with-validator": {
+      "reason": "Provides 'email', 'ipaddress' and 'url' property validation format for convict",
+      "url": "https://www.npmjs.com/package/convict-format-with-validator"
+    },
+    "dotenv": {
+      "reason": "Loads configuration parameters from a .env file",
+      "url": "https://www.npmjs.com/package/dotenv"
+    },
+    "fs-extra": {
+      "reason": "Adds file system methods that aren't included in the native fs module",
+      "url": "https://www.npmjs.com/package/fs-extra"
+    },
+    "imap": {
+      "reason": "Fetch emails, for example to read 2FA codes or generated passwords",
+      "url": "https://www.npmjs.com/package/imap"
+    },
+    "java": {
+      "reason": "Interact with Java APIs, to invoke methods from external Java libraries",
+      "url": "https://www.npmjs.com/package/java"
+    },
+    "json-merger": {
+      "reason": "Merge JSON files and objects",
+      "url": "https://www.npmjs.com/package/json-merger"
+    },
+    "lodash": {
+      "reason": "Contains useful predefined built-in methods",
+      "url": "https://www.npmjs.com/package/lodash"
+    },
+    "log4js": {
+      "reason": "Used for logging the information",
+      "url": "https://www.npmjs.com/package/log4js"
+    },
+    "moment": {
+      "reason": "Used for date manipulation",
+      "url": "https://www.npmjs.com/package/moment"
+    },
+    "nested-property": {
+      "reason": "Used to traverse a deeply nested JS data structure to get/set values, or test if values are part of the data structure",
+      "url": "https://www.npmjs.com/package/nested-property"
+    },
+    "robotjs": {
+      "reason": "To interact with keyboard/mouse, input strings and press buttons",
+      "url": "https://www.npmjs.com/package/robotjs"
+    },
+    "uuid": {
+      "reason": "Used to generate random UUIDs in test cases.",
+      "url": "https://www.npmjs.com/package/uuid"
+    },
+    "webdriverio": {
+      "reason": "Next-gen browser and mobile automation test framework for Node.js",
+      "url": "https://www.npmjs.com/package/webdriverio"
+    },
+    "xlsx": {
+      "reason": "Used for parsing and writing various spreadsheet formats",
+      "url": "https://www.npmjs.com/package/xlsx"
+    }
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-codeceptjs": "^1.3.0",
+    "gherkin-lint": "^4.2.1",
+    "prettier": "2.2.1",
+    "shx": "^0.3.3"
+  },
+  "devDependenciesComments": {
+    "babel-eslint": {
+      "reason": "ESLint allows custom parsers but some syntax nodes that Babel supports aren't supported by ESLint",
+      "url": "https://www.npmjs.com/package/babel-eslint"
+    },
+    "eslint": {
+      "files": [
+        ".eslintignore",
+        ".eslintrc.json"
+      ],
+      "reason": "Used as the main linting tool",
+      "url": "https://www.npmjs.com/package/eslint"
+    },
+    "eslint-config-prettier": {
+      "reason": "Makes Prettier and ESLint work nicely together",
+      "url": "https://www.npmjs.com/package/eslint-config-prettier"
+    },
+    "eslint-plugin-codeceptjs": {
+      "reason": "Extends the existing ESLint rules to follow CodeceptJS best practices",
+      "url": "https://www.npmjs.com/package/eslint-plugin-codeceptjs"
+    },
+    "gherkin-lint": {
+      "files": [
+        ".gherkin-lintrc"
+      ],
+      "reason": "Parses feature files and runs linting to enforce BDD formatting rules",
+      "url": "https://www.npmjs.com/package/gherkin-lint"
+    },
+    "prettier": {
+      "files": [
+        ".prettierignore",
+        ".prettierrc.json"
+      ],
+      "reason": "Used for automatic code formatting",
+      "url": "https://www.npmjs.com/package/prettier"
+    },
+    "shx": {
+      "reason": "Used in post install script to copy files in cross-platform way",
+      "url": "https://www.npmjs.com/package/shx"
+    }
+  },
+  "bugs": {
+    "url": "https://slrdynamics.atlassian.net/browse/PESA"
+  },
+  "publishConfig": {
+    "registry": "https://gitlab.com/api/v4/projects/21726831/packages/npm/",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:slr-dynamics/m-pesa/global-automation-framework/core.git"
+  }
+}

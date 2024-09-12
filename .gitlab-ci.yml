@@ -1,0 +1,55 @@
+# Official framework image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/node/tags/
+image: node:14
+
+# This folder is cached between builds
+# http://docs.gitlab.com/ce/ci/yaml/README.html#cache
+cache:
+  paths:
+    - node_modules/
+
+.log_versions: &log_versions
+  - node --version
+  - npm --version
+
+.install_robotjs_deps: &install_robotjs_deps
+  - apt-get update
+  - apt-get install -y libxtst-dev libpng++-dev
+
+.install_java_compiler: &install_java_compiler
+  - apt-get update
+  - apt-get install -y default-jdk
+
+stages:
+  - test
+
+prettier:
+  stage: test
+  before_script:
+    - *log_versions
+    - *install_robotjs_deps
+    - *install_java_compiler
+  script:
+    - npm install
+    - npm run check-conflict
+    - npm run check-prettier
+
+eslint:
+  stage: test
+  before_script:
+    - *log_versions
+    - *install_robotjs_deps
+    - *install_java_compiler
+  script:
+    - npm install
+    - npm run check-eslint
+
+gherkin:
+  stage: test
+  before_script:
+    - *log_versions
+    - *install_robotjs_deps
+    - *install_java_compiler
+  script:
+    - npm install
+    - npm run check-gherkin

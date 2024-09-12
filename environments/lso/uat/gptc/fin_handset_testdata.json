@@ -1,0 +1,95 @@
+{
+  "GPTC": {
+    "Handset": {
+      "RegisteredCustomer": {
+        "DeviceName": "HY6H8T4TYTAYBQAI",
+        "MSISDN": "26658575147",
+        "PIN": "1215",
+        "SecretWord": "kvyink",
+        "DeviceType": "android"
+      },
+      "RegisteredCustomerTwo": {
+        "DeviceName": "GQ9LNJNRGYEIUWNV",
+        "MSISDN": "26658992714",
+        "PIN": "1215",
+        "SecretWord": "secret"
+      },
+      "RegisteredCustomerThree": {
+        "DeviceName": "HAMNIFHMWO4TK7YD",
+        "MSISDN": "26657551933",
+        "PIN": "7901",
+        "SecretWord": "kvyink",
+        "DeviceType": "android"
+      },
+      "UnregisteredCustomer": {
+        "MSISDN": "26658948979",
+        "DeviceName": "HAMNIFHMWO4TK7YD",
+        "DeviceType": "android"
+      },
+      "ClosedTill": {
+        "MSISDN": "26658599966",
+        "DeviceName": "75LB9DTWUS8LBAZL",
+        "AssistantID": "ABC12345",
+        "TopShortCode": "010172",
+        "PIN": "2002",
+        "DeviceType": "android",
+        "Username": "MyOperator1234"
+      },
+      "Till": {
+        "DeviceName": "C6US6TCY75GAS87H",
+        "ShortCode": "010000",
+        "MSISDN": "26658463953",
+        "Number": "2883",
+        "Name": "fname",
+        "Username": "TopOrgOpOrg",
+        "PIN": "4554",
+        "LanguagePrefered": "Sesotho",
+        "DefaultLanguage": "English",
+        "AssistantID": "ABC1",
+        "DeviceType": "android"
+      },
+      "TransactionAmount": "10",
+      "SendMoneyTransactionAmount": "1",
+      "MaxTransactionAmount": "100000"
+    },
+    "Beneficiary": {
+      "RegisteredCustomer": { "MSISDN": "26650000896", "Name": "Venkat Reg" },
+      "TopOrganization": { "ShortCode": "019261", "Name": "TopOrg" },
+      "UnregisteredCustomer": { "MSISDN": "26658948979", "Name": "fnameunreg" }
+    },
+    "Receipient": { "MobileNumber": "26650004125" },
+    "strMaxTimes": "3",
+    "PayBillLEC": "360484307",
+    "Include266": "26657551933",
+    "EXclude266": "57551933",
+    "MSISDNCustomer": "8618551130703",
+    "LAA": "12345-001",
+    "WASCO Service Fees Disconnection Penalty": "0200733",
+
+    "InsuranceTypes": {
+      "Alliance short term": "DCA3009221",
+      "Alliance short term1": "SRA3007675",
+      "Naledi Funeral Services": "BBU002057",
+      "Naledi Funeral Services1": "HLO000007",
+      "Metropolitan": "MP720016428",
+      "Metropolitan1": "4126321274",
+      "TransAfrica": "XWZ23445579",
+      "TransAfrica1": "XWZ23445578",
+      "Mamoth Health": "XWZ23445579",
+      "Mamoth Health1": "XWZ23445584",
+      "AllianceLife": "802403",
+      "AllianceLegal": "ALCM3000376",
+      "LesothoFuneralServices": "HLO000001",
+      "LNIG": "8482400"
+    },
+    "Insurance Amount": {
+      "Alliance short term Ammount": "82",
+      "Naledi Funeral Services Amount": "135",
+      "Mamoth Health Amount": "50",
+      "TransAfrica Amount": "50",
+      "AllianceLifeAmmount": "200",
+      "AllianceLegalAmount": "",
+      "LesothoFuneralServices": "75"
+    }
+  }
+}

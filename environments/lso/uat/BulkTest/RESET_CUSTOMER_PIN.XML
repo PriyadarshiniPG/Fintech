@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BulkResetPINForCustomerRequest>
+	<!-- At least one Customer item should exist -->
+	<Customer>
+			<!-- MSISDN item is required -->
+			<MSISDN>26658575147</MSISDN>
+	</Customer>
+</BulkResetPINForCustomerRequest>

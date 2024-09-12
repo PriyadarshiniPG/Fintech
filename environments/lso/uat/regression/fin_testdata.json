@@ -1,0 +1,320 @@
+{
+  "Login": {
+    "SP-Url": "https://159.138.163.66:1080/#/login",
+    "Org-Url": "https://159.138.163.66:1081/",
+    "VerificationCode": "1111",
+    "sp": {
+      "UserID": "AutomationFin1",
+      "password": "AUTO!3131"
+    },
+    "sp_generic": {
+      "UserID": "AutomationFin2",
+      "password": "AUTO!1313"
+    },
+    "spBackoff": {
+      "UserID": "fintechBO",
+      "password": "TEST!1422"
+    },
+    "spcc-bo": {
+      "UserID": "finAuto",
+      "password": "AUTO!5151"
+    },
+    "spcc": {
+      "UserID": "SpFinCCA",
+      "password": "AUTO!2121"
+    },
+    "retailsp": {
+      "UserID": "retailtest",
+      "password": "AUTO!2121",
+      "FirstName": "test",
+      "LastName": "test",
+      "Account": "retailtest"
+    },
+    "retailspInvalid": {
+      "UserID": "retailsp",
+      "password": "AUTO!1414"
+    },
+    "spBackoffIncorrectPassword": {
+      "UserID": "fintAB",
+      "UserID1": "finAuto",
+      "password": "AUTO!1212",
+      "password1": "AUTO!121",
+      "VerificationCode": "1111"
+    },
+    "spIncorrectPassword": {
+      "UserID": "AutomationFin1",
+      "password": "Testing"
+    },
+    "org": {
+      "UserID": "orgope1",
+      "password": "AUTO!1212",
+      "Shortcode": "010000",
+      "PIN": "6767"
+    },
+    "orgnew": {
+      "UserID": "orgope7",
+      "password": "AUTO!1212",
+      "Shortcode": "010000",
+      "PIN": "4212",
+      "SecretQuestionAswer": "chennai"
+    },
+    "orgIncorrectPassword": {
+      "Shortcode": "010000",
+      "UserID": "orgope7",
+      "password": "AUTO"
+    },
+    "orgB2C": {
+      "UserID": "Testbtoc",
+      "password": "TEST!1515",
+      "Shortcode": "010204"
+    },
+    "orgC2B": {
+      "UserID": "MyOperator1234",
+      "password": "TEST!1422",
+      "Shortcode": "010172",
+      "PIN": "5720"
+    },
+    "orgC2BII": {
+      "UserID": "C2BOperator",
+      "password": "AUTO!2121",
+      "Shortcode": "010172",
+      "PIN": "3314"
+    },
+    "orgAHO": {
+      "UserID": "AHOCen",
+      "password": "AUTO!2121",
+      "Shortcode": "010260"
+    },
+    "orgAgencyIndep": {
+      "UserID": "AgencyIndep",
+      "password": "AUTO!2020",
+      "Shortcode": "010313",
+      "PIN": "4952"
+    },
+    "orgAgencystore": {
+      "UserID": "AgencyStore",
+      "password": "AUTO!1212",
+      "Shortcode": "010528",
+      "PIN": "4612"
+    },
+    "orgAgenHO": {
+      "UserID": "AgencyHO",
+      "password": "AUTO!1414",
+      "Shortcode": "010000",
+      "PIN": "6308"
+    },
+    "orgSuperAgent": {
+      "UserID": "SuperAgent",
+      "password": "AUTO!1414",
+      "Shortcode": "010002",
+      "PIN": "0610"
+    },
+    "orgIncorrectShortcode": {
+      "UserID": "AHOCen",
+      "UserID1": "AHOCe",
+      "password1": "TEST!",
+      "password": "AUTO!1212",
+      "Shortcode": "010260",
+      "ShortCode1": "01026001",
+      "IncorrectVerificationCode": "1234",
+      "VerificationCode": "1111"
+    },
+    "orgSecond": {
+      "Shortcode": "010000",
+      "UserID": "orgSecond",
+      "password": "697^T4c8",
+      "Newpassword": "AUTO!1212",
+      "Confirmpassword": "AUTO!1414",
+      "MinimumPassword": "AUTO",
+      "Confirmpassword1": "AUTO!1414",
+      "PIN": "755"
+    },
+    "orgtest": {
+      "Shortcode": "010000",
+      "UserID": "Orgtest",
+      "password": "23U455'c",
+      "Newpassword": "AUTO!1212",
+      "Confirmpassword": "AUTO!1212"
+    }
+  },
+  "Customer": {
+    "Registered_Customer1": "26657551933",
+    "Registered_Customer2": "26658992714",
+    "Registered_Customer3": "26658575147",
+    "Registered_Customer4": "8618551130702",
+    "Registered_Customer5": "26656190920",
+    "Registered_Exclude266": "8613000000014",
+    "ClosedCustomer": "26650979746",
+    "SuspendedCustomer": "26658948978",
+    "DormantCustomer": "26658850052",
+    "Pending_Customer": "26650000001"
+  },
+  "OrgOperator": {
+    "ShortCode": "010000",
+    "Till": "10012",
+    "DefaultOperatorId": "ABC1",
+    "DefaultOperatorId3": "ABC3",
+    "DefaultOperatorId4": "ABC1",
+    "DefaultOperatorId5": "ABC12",
+    "DefaultOperatorId6": "AB1234",
+    "DefaultOperatorId8": "010024"
+  },
+  "Till": {
+    "MpatOrgOne": {
+      "TillNumber": "10012",
+      "TillNumber1": "0125",
+      "TillNumber2": "10007",
+      "TillNumber3": "838811",
+      "MSISDN1": "8613112349999",
+      "MSISDN2": "8617133804871",
+      "MSISDN": "26658575137",
+      "ShortCode": "010000",
+      "TillPendingActive": "12345",
+      "Till_PendingActive": "10231",
+      "Till_PendingActive2": "20104",
+      "Till_MSISDN_Pending": "26658463959",
+      "Till_MSISDN_Pending1": "26650000008",
+      "Till_PendingActive1": "10031",
+      "Till_MSISDN_Closed": "26658599966",
+      "TillNumber_Closed": "10141"
+    }
+  },
+  "Group": {
+    "GroupName": "GPTC Test Team"
+  },
+  "ShortCode": {
+    "ShortCode1": "010000",
+    "ShortCode2": "010172",
+    "ShortCode3": "010003",
+    "ShortCode4": "010089",
+    "ShortCode5": "010002",
+    "ShortCode6": "010179",
+    "ShortCode7": "010263",
+    "AgencyIndep": "010313",
+    "ShortCode8": "010411",
+    "ShortCode9": "010204",
+    "ShortCode10": "010121",
+    "ShortCode11": "010108",
+    "ShortCode12": "010024",
+    "PaySchoolFeesShortCode": "010469",
+    "UtilitypayementShortCode": "814002",
+    "MerchantpayementShortCode": "010206"
+  },
+  "DropDown": {
+    "String": "String",
+    "Input": "Input",
+    "English": "English",
+    "Email": "Email",
+    "Owned": "Owned",
+    "CanMakeOwned": "Can Make Owned",
+    "Aggregator Model": "2",
+    "Central Owned Model": "2",
+    "Sub Agent Expansion Model": "NoneHierarchy",
+    "Customer": "Customer",
+    "MSISDN": "MSISDN",
+    "Organization Wallet Working Account": "Organization Wallet Working Account",
+    "ResetPIN": "Reset PIN",
+    "ModifySystemParameter": "Modify System Parameter",
+    "LoginSuccess": "Login Success",
+    "DefaultOperator": "ABC123",
+    "SecretQuestion": "What is your place of birth",
+    "DeleteBeneficiary": "Delete Beneficiary",
+    "AddBeneficiary": "Add Beneficiary",
+    "CentralBankofLesotho": "CENTRAL BANK OF LESOTHO",
+    "StandardLesothoBank": "Standard Lesotho Bank",
+    "FintechTest": "FintechTest",
+    "DepositAccount": "Deposit Account",
+    "LSL": "LSL",
+    "Credit Card": "Credit Card",
+    "American": "American,U.S",
+    "BusinessDeposit": "Organization Funds Management - Business Deposit",
+    "BusinessWithdraw": "Organization Funds Management - Business Withdrawal",
+    "BusinessTransfersfromUtilityCollectionAccount": "Business Transfers from Utility Collection Account",
+    "BusinessTransfers-UtilityDisbursementto/fromM-PESA Working Account": "Business Transfers - Utility Disbursement to/from M-PESA Working Account",
+    "AgencyOrganizationMoveFundsFloatToM-Pesa": "AgencyOrganizationMoveFundsFloatToM-Pesa",
+    "MerchantToMerchant": "Merchant Pay To Merchant",
+    "DefaultOperatorID": "ABC123",
+    "LogoutSuccess": "Logout Success",
+    "LoginFailure": "Login Failure",
+    "Bank": "TEST",
+    "DateOfBirth": "Date of Birth",
+    "FirstNameLastName": "First Name + Last Name",
+    "IdentityId": "Identity Id",
+    "IdentityID": "Identity ID",
+    "RegisteredCustomer": "Registered Customer",
+    "MiddleName": "Middle Name",
+    "Whatisyourfirstcellphone": "What is your first cellphone",
+    "TillqueryCondition": "Till Number + Organization Short Code",
+    "EventClosetill": "Close Till",
+    "Identity Management": "Identity Management",
+    "Veterinaryservices": "0742 -Veterinary services",
+    "PublicListedCompany": "Public Listed Company",
+    "Aggregator": "Aggregator",
+    "Test": "test",
+    "NormalTransactions": "Normal Transactions",
+    "CSV": "CSV",
+    "MT940": "MT940",
+    "CNY": "CNY",
+    "Albanian": "Albanian",
+    "Till": "Till",
+    "RegularExpression": "Regular Expression",
+    "Change Till Product": "Change Till Product",
+    "Change Till Status": "Change Till Status",
+    "ShortCode": "Short Code",
+    "OrganizationFundsManagementMoveFunds": "Organization Funds Management - Move Funds",
+    "AgencyTransferfromFloatAccountToWorkingAccount": "Agency Transfer from Float Account to Working Account",
+    "SalaryPaymentToCustomer": "Salary Payment To Customer",
+    "Testmodel": "testmodel",
+    "Southern Sotho": "Southern Sotho",
+    "OrganizationWithdrawalFromM-PESA": "Organization Withdrawal From M-PESA",
+    "MerchantWithdrawalofFundsfromagent": "Merchant Withdrawal of Funds from agent",
+    "Testbank": "Test2591/453462****7498/(AAAAbank)",
+    "Registeredcustomer": "Registered Customer",
+    "Minorcustomers": "Minor Customers",
+    "SecretAnswer": "Secret Answer",
+    "UnlockPIN": "Unlock PIN",
+    "OrgOpeOptionInAuditLog": "Organization Operator",
+    "UnlockOpePin": "Unlock Operator Pin",
+    "BulkPaymentInorgPortal": "B2B Bulk Payment CSV",
+    "B2BTransfer": "BusinessToBusinessTransfer"
+  },
+  "Bank": {
+    "HeadOffice": "CENTRAL BANK OF LESOTHO",
+    "Name": "Standard Lesotho Bank",
+    "TopOrgBank": "TEST",
+    "AssetType": "Deposit Account",
+    "Currency": "USD",
+    "BankBranch": "mbank001",
+    "Rec_Bank": "AUTOMATION/124322****3234/(cc001)"
+  },
+  "Region": {
+    "Butha-Buthe": "Butha-Buthe"
+  },
+  "Type Of Business": {
+    "Non-Governmental Organisation": "Non-Governmental Organisation",
+    "PLC": "Public Listed Company"
+  },
+  "Organisation Category Code": {
+    "0742 -Veterinary services": "0742 -Veterinary services",
+    "PaySchoolFees": "8220 - Colleges/ universities/ professional schools and junior colleges"
+  },
+  "Preferred Notification Language": {
+    "Language": "English"
+  },
+  "Reason Description": "Test",
+  "Role": "SPOperator.Role.1",
+  "Test Email": "TestAutomation@prodapt.com",
+  "DateOfBirth": "17/10/1989",
+  "DateOfBirthActive": "13/09/1992",
+  "CommissionPeriod": "20/02/2023",
+  "ScheduleTime": "18/04/2025",
+  "Firstname": "%%",
+  "FirstnameActive": "Registered",
+  "LastnameActive": "CustomerOne",
+  "MiddlenameActive": "Automation",
+  "OrgUsernameActive": "Alex",
+  "FirstnamePending": "TestAuto",
+  "Placeofbirth": "Chennai",
+  "cellphone": "Nokia3310",
+  "OperatorID": "%%"
+}
